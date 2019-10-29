@@ -9,4 +9,57 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: cadetblue;
+}
+
+header {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+}
+nav {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav li {
+  padding: 0.5rem;
+}
+
+main {
+  padding: 1.25rem;
+}
+
+.cat-picture {
+  border: 3px solid aqua;
+}
+
+/* .bottom-bar {
+  display: flex;
+  background-color: pink;
+  justify-content: space-evenly;
+} */
+
+.bottom-bar-list {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  list-style: none;
+  padding: 2.5rem;
+}
+
+.section-main {
+  display: flex;
+}
+
+.busy-kittens {
+  padding: 2.5rem;
 }
